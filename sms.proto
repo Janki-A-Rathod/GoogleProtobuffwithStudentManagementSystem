@@ -1,0 +1,7 @@
+syntax = "proto3";
+package tutorial;
+message Student {
+  required int32 id =1 ;  // Unique ID number for this person.
+ required string name = 2;
+}
+
